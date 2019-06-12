@@ -1,0 +1,382 @@
+ .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+ .dropdown {
+    position: relative;
+    display: inline-block; width="100px";
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4CAF50;
+    min-width: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.dropdown-content a {
+    color: #fff;
+    padding: 33px 75px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: black}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+ * {
+    margin: 0;
+    padding: 0;
+}
+.image {
+    height: 750px;
+    width: 100%;
+    background: #55e6c5;
+    z-index: 1;
+    }
+
+.content {
+    height: 750px;
+    width:100%;
+    background: #1a1a1a;
+    z-index: 2;
+}
+.content h1 {
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin: 30px 60px;
+
+}
+
+
+.content p {
+    font-size:140%;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 30px 60px;
+}
+#wall_1 {
+    background-size:contain;
+	background:	url(../Images/divv.jpg); 
+    background-size: 110% 90% ;
+    background-attachment: fixed;
+
+}
+#wall_2 {
+    background-size:contain;
+	background:	url(../Images/esp.jpg) repeat;
+    background-size: 100% 800px ;
+    background-attachment:fixed ;
+    margin-top: 0px
+}
+
+
+#nav {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+
+    background: black ;rgba(255,255,255,1);
+    z-index: 100;
+    -webkit-box-shadow:0px 0px 20px rgba(44,44,44,1);
+}
+#nav #logo {
+    height: 60px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    bottom:0;
+	margin: auto 100px;
+}
+
+#nav #logo {
+    height: 80%;
+    width: 90%;
+
+}
+
+
+
+h1::first-letter   {
+    font-size: 60px;
+    font-weight: 260px;
+    color:#3cb0f8;
+	margin-left: 1%;
+}
+h1::second-letter  {
+ font-size: 110px;
+    font-weight: 280px;
+    color:#3cb0f8;
+}
+
+
+	}
+
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+#bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+
+}
+
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 50%;
+      margin-left: 20%;
+  }
+
+.lorem{
+
+
+      color: black;
+
+	   padding-top: 50px;
+     padding-right: 80px;
+     padding-bottom: 50px;
+     padding-left: 80px;
+	 font-family: 'Open Sans', sans-serif;
+	background-color:white ;
+
+
+
+
+}
+
+h2 span {
+   color: white;
+   font: bold 40px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0);
+   background: rgba(0, 0, 0, 0.7);
+   padding: 0px;
+
+}
+h2 {
+   position: absolute;
+   top: 200%;
+   left: 0;
+   width: 100%;
+}
+
+.btn-info {
+
+margin-left: 4.8% ;
+width: 120px ;
+
+}
+
+#myCarousel {
+
+
+
+height: 700px;
+width:  600px;
+
+}
+
+#myCarousel1{
+
+margin-left: 80% ;
+height: 350px;
+width:  500px;
+
+
+
+
+}
+
+.yeh {
+
+padding-top: 2% ;
+
+}
+
+.h5 {
+    font-size:40px;
+
+
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.desc {
+
+font-size:20px;
+
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
